@@ -1,0 +1,16 @@
+.big-buttons input {
+  border-radius: 21px;
+  background: var(--vert, #69d094);
+  width: 277px;
+  height: 42px;
+  flex-shrink: 0;
+  color: var(--noir, #000);
+  text-align: center;
+
+  /* gros */
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
