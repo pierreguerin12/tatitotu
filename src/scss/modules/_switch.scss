@@ -1,13 +1,39 @@
-.switch {
-  position: relative;
+.switch-wrapper {
   display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-.slider.round.round {
-  border-radius: 34px;
+  width: 30px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 10px;
+  background: white;
 }
 
-.slider.round:before {
-  border-radius: 50%;
+.switch-inner {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #d9d9d9;
+}
+
+input:checked + .switch-wrapper .switch-inner {
+  margin-left: 1px;
+  background-color: white;
+}
+
+input:checked + .switch-wrapper {
+  margin-left: 10px;
+  background-color: #25254c;
+}
+
+.switch input {
+  display: none;
+}
+
+.switch-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 0px;
+}
+
+.switch {
+  width: 50%;
 }
