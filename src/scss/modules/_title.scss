@@ -26,3 +26,15 @@
   line-height: normal;
   margin-bottom: 14px;
 }
+
+.titles-temps {
+  width: 442px;
+  flex-shrink: 0;
+  color: var(--blanc, #fff);
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
