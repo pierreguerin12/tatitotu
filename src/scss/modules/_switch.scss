@@ -38,3 +38,13 @@ input:checked + .switch-wrapper {
 .switch {
   width: 50%;
 }
+
+.switch-list-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.switch-total {
+  width: 100%;
+}
